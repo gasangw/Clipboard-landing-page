@@ -16,7 +16,8 @@
   background-size: cover;
 }
 
-.content-holder {
+.content-holder,
+.intro-section {
   width: 50%;
   padding: 2.5rem 0;
   text-align: center;
@@ -39,6 +40,10 @@
   padding-bottom: 2rem;
   margin: 0 auto;
 }
+
+.btn-holder {
+  margin-bottom: 3rem;
+}
  
 .btn {
   padding: 0.6rem 1.3rem;
@@ -57,4 +62,38 @@
 
 .btn2 {
   background-color: hsl(233, 100%, 69%);
+}
+
+.intro-section {
+  margin: 0 auto;
+}
+
+.track-title {
+  font-weight: 600;
+  padding: 0.9rem 0;
+  font-size: 1.23rem;
+}
+
+.track-description {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.snippets-holder {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.computer-img {
+  position: absolute;
+  left: -3%;
+}
+
+.article-wrapper {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  padding: 1rem 0.7rem;
 }
