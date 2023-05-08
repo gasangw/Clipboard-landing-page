@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1.12rem;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.home-container {
+  display: grid;
+  place-items: center;
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-holder,
+.intro-section {
+  width: 50%;
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+.logo {
+  padding: 1rem 0;
+}
+
+.title {
+  padding: 0.5rem 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.intro-text {
+  font-size: 0.7rem;
+  width: 60%;
+  line-height: 1rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+}
+
+.btn-holder {
+  margin-bottom: 3rem;
+}
+ 
+.btn {
+  padding: 0.6rem 1.3rem;
+  border-radius: 25px;
+  color: #fff;
+  border: none;
+  font: 0.9rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn1 {
+  background-color:  hsl(171, 66%, 44%);
+  margin-right: 0.3rem;
+}
+
+.btn2 {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.intro-section {
+  margin: 0 auto;
+}
+
+.track-title {
+  font-weight: 600;
+  padding: 0.9rem 0;
+  font-size: 1.23rem;
+}
+
+.track-description {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.snippets-holder {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.computer-img {
+  position: absolute;
+  left: -3%;
+}
+
+.article-wrapper {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  padding: 1rem 0.7rem;
+}
+
+.Clipboard-access-section {
+  margin-top: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tool-heading,
+.tool-intro {
+  text-align: center;
+}
+
+.tool-heading {
+  font-size: 1.7rem;
+  padding: 0.4rem;
+}
+
+.tool-intro {
+  font-size: 0.98rem;
+}
+
+.tool-article-holder {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.tool-holder {
+  display: flex;
+  width: 26%;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.tool-title {
+  padding-bottom: 1.2rem;
+}
+
+.tool-description {
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+.icon {
+  padding: 2rem 0;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin: 7rem 0;
+}
+
+.partner-icon {
+  cursor: pointer;
+}
+
+.clip-footer-holder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.footer-container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(225, 17%, 95%);
+  padding: 1rem 4rem;
+}
+
+.footer-container  p {
+  font-size: 0.92rem;
+  line-height: 2rem;
+}
+
+.social-media-holder {
+  margin-left: auto;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.small-icon {
+  width: 40%;
+}
+
+/* .social-links li:hover {
+  background-color: hsl(233, 100%, 69%);
+} */
