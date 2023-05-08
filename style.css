@@ -8,6 +8,10 @@
   font-family: 'Bai Jamjuree', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 .home-container {
   display: grid;
   place-items: center;
@@ -96,4 +100,53 @@
   width: 80%;
   flex-direction: column;
   padding: 1rem 0.7rem;
+}
+
+.Clipboard-access-section {
+  margin: 13rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tool-heading,
+.tool-intro {
+  text-align: center;
+}
+
+.tool-heading {
+  font-size: 1.7rem;
+  padding: 0.4rem;
+}
+
+.tool-intro {
+  font-size: 0.98rem;
+}
+
+.tool-article-holder {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.tool-holder {
+  display: flex;
+  width: 26%;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.tool-title {
+  padding-bottom: 1.2rem;
+}
+
+.tool-description {
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+.icon {
+  padding: 2rem 0;
 }
